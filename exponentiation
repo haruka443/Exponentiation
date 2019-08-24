@@ -1,0 +1,17 @@
+basis = float(input('Input the basis:  '))
+index = float(input('Input the idex: '))
+
+mutipliesAmount = 0
+result = basis
+while mutipliesAmount < index - 1:
+    result = result * basis
+    mutipliesAmount += 1
+if index == 0:
+   result = 1
+print(result)
+
+#while True:
+#    basis = float(input('Input the basis: '))
+#    index = float(input('Input the index: '))
+#    print(f'The value{basis: .0f} raised to power of {index} gives {basis ** index: .0f}')
+
